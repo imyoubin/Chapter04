@@ -16,7 +16,7 @@ public class MyList<T> {
 	
 	//메소드일반
 	public void add(T p) {
-		this.oArray[crtPos] = p;  //업캐스팅 자동-섞어쓰기
+		this.oArray[crtPos] = p;  //업캐스팅 되지 않는
 		this.crtPos++;
 	}
 	
